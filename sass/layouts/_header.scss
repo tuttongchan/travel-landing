@@ -1,0 +1,48 @@
+.header {                                               // ALWAYS NAME ALL CLASSES, EVEN HEADER
+    height: 100vh;
+    background-image: url(../img/Travel.jpg);
+    background-position: center;
+    background-size: cover;
+
+    &__box {
+        padding-top: 3.5rem;
+        padding-right: 4rem;
+        padding-bottom: 6.8rem;
+        background-color: rgba(13, 87, 161, 0.897);
+    }
+
+    &__logo {
+        position: absolute;
+        top: 1%;
+        left:2%;
+        width: 5.8%;
+    }
+
+    &__navigation {
+        float: right;
+    }
+
+    &__list {
+        list-style: none;
+        font-size: 1.8rem;
+        font-weight: 1000;
+        word-spacing: 2.2rem;
+    }
+
+    &__item {
+        display: inline-block;
+        margin-top: .8rem;
+        margin-right: 2rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-white;
+    }
+
+    &__text {
+        position: absolute;
+        top: 61%;
+        left: 8%;
+    }
+}

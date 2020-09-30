@@ -1,0 +1,37 @@
+.form {
+
+    &__group {
+        margin-top: 1.5rem;
+    }
+
+    &__input {
+        padding: 1rem;
+        border-radius: 2px;
+        background-color: rgba($color-white, .8);
+        border: none;
+        width: 60%;
+        display: inline-block;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {                           // placeholder psuedo class for input element
+            color: $color-grey;
+            text-align: left;
+        }
+    }
+
+    &__submit {
+        display: inline-block;
+        padding: 1rem;
+        margin-left: 1rem;
+        border: none;
+        border-radius: 2px;
+        background-color: rgb(0, 215, 253);
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

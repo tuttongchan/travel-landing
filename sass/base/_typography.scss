@@ -1,0 +1,45 @@
+.heading-primary-light {
+    color: $color-white;
+    font-size: 3.5rem;
+    font-weight: 1000;
+}
+
+.heading-primary-dark {
+    color: $color-grey;
+    font-size: 3.5rem;
+    font-weight: 1000;
+}
+
+.heading-box-image {
+    color: $color-white;
+    z-index: 100;
+    position: absolute;
+    bottom: 23%;
+    left: 6%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.paragraph-light {
+    color: $color-white;
+    font-size: 1.5rem;
+}
+
+.paragraph-black {
+    color: $color-grey;
+    font-size: 1.5rem;
+}
+
+.paragraph-review {
+    color: $color-grey;
+    font-size: 1.7rem;
+}
+
+.blockquote {
+    color: $color-grey;
+    font-size: 1.7rem;
+}
+
+
+

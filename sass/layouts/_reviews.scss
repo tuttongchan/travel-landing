@@ -1,0 +1,40 @@
+.review {
+    padding: 25rem 0;
+    background-color: #e6e4e4;;
+    position: relative;
+
+    &__text {
+        padding: 2rem 3rem;
+        background-color: $color-white;
+        display: inline-block;
+        position: absolute;
+        bottom: 11%;
+        left: 15%;
+        z-index: 300;
+    }
+
+    &__img {
+        position: absolute;
+        bottom: 2.5%;
+        left: 45%;
+        z-index: 200;
+    }
+
+    &__wheezy {
+        margin-top: 1rem;
+        border-radius: 50px;
+        vertical-align: middle;
+    }
+
+    &__words {
+        margin-left: 1rem;
+    }
+
+    &__quotes {
+        font-size: 4rem;
+        color: rgb(45, 250, 37);
+    }
+}
+
+
+
